@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DDLevelDB"
-  s.version      = "2.1.0"
+  s.version      = "2.2.0"
   s.summary      = "DDLevelDB."
 
   s.description  = <<-DESC
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/djs66256/Objective-LevelDB.git", :tag => "2.1.0" }
+  s.source       = { :git => "https://github.com/djs66256/Objective-LevelDB.git", :tag => "2.2.0" }
 
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
