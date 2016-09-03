@@ -117,8 +117,8 @@ LevelDBOptions MakeLevelDBOptions() {
 - (id) initWithPath:(NSString *)path name:(NSString *)name andOptions:(LevelDBOptions)opts {
     self = [super init];
     if (self) {
-        _name = name;
-        _path = path;
+        _name = [name retain];
+        _path = [path retain];
         
         leveldb::Options options;
         

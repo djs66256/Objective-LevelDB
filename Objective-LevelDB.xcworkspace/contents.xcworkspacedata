@@ -5,6 +5,12 @@
       location = "group:Classes"
       name = "Classes">
       <FileRef
+         location = "group:DDLevelDB.h">
+      </FileRef>
+      <FileRef
+         location = "group:DDLevelDB.m">
+      </FileRef>
+      <FileRef
          location = "group:Common.h">
       </FileRef>
       <FileRef
