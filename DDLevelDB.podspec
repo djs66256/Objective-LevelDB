@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/djs66256/Objective-LevelDB.git", :tag => "2.2.0" }
 
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Class", "Class/**/*.{h,m,mm}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
