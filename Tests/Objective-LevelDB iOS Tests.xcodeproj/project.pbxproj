@@ -30,6 +30,30 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>6DB9EC34E5897FEF34894A77</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ios/Pods-ios-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
 		<key>9C1221F6D2F6D4A36EDE292C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -268,6 +292,7 @@
 				<string>D00F7D2C1834205700026A43</string>
 				<string>D00F7D2D1834205700026A43</string>
 				<string>E6849FA8A3694B80B318036F</string>
+				<string>6DB9EC34E5897FEF34894A77</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
