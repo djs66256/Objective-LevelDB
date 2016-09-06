@@ -672,6 +672,8 @@ LevelDBOptions MakeLevelDBOptions() {
 }
 - (void) dealloc {
     [self close];
+    [_path release];
+    [_name release];
     [super dealloc];
 }
 
